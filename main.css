@@ -25,6 +25,17 @@ h1, h2, img {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .hero-text {
+    padding: 1.2rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+}
 
 .hero-text-wrapper {
   display: table-cell;
@@ -34,27 +45,25 @@ h1, h2, img {
 
 .hero-text {
   margin: 0 auto;
-  padding: 3.25rem;
-  color: aliceblue;
+  padding: 2.625rem;
+  color: white;
   background: hsla(100,0%,0%,.5);
-  width: 40%;
   
 }
 
 .hero-text h1{
-  font-size: 7rem;
-  margin-bottom: 0;
   color: #d2ba87;
-  font-family: 'Great Vibes';
+  font-size: 4.15rem;
+  font-family: 'Great Vibes', cursive;
 }
-
-
 
 .tagline {
   font-size: 1.50rem;
   letter-spacing: .15rem;
   margin: 0 0 1.5rem;
 }
+
+
 
 .date {
   font-size: 1.50rem;
@@ -89,9 +98,9 @@ section h2 {
 }
 
 .icon {
-  display: inline-block;
+  display: block;
   padding: 2.5rem ;
-  width: 30%;
+  
 }
 
 div h3 {
@@ -99,6 +108,16 @@ div h3 {
   margin: 0 0 2rem;
   font-family: 'Libre Baskerville';
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  
+  .icon {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
 }
 
 
@@ -130,10 +149,16 @@ div p {
 }
 
 .program-wrapper ul {
-  width: 30%;
   margin: auto;
   line-height: 1.8rem
   
+}
+
+@media (min-width: 768px) {
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
 }
 
 
@@ -165,27 +190,27 @@ img {
   width: 100%;
   text-align: center;
   color: #d2ba87;
+  
 }
 
 .h2 {
-  padding: 1.5rem;
+  padding: 1.3rem;
 }
 
 .questions2 {
   display: inline-block;
   text-align: left;
-  width: 30%;
+  margin: 1.5rem auto;
+  padding: .5rem;
   vertical-align: top;
-  padding: 1.5rem;
-  margin: .5rem;
 }
+
 
 .h3 {
   font-weight: 400;
 }
 
 .question, .answer {
-  text-align: left;
   margin: 0 0 1.5rem;
   font-size: 1.125rem;
   font-family: 'Mulish', sans-serif;
@@ -198,7 +223,7 @@ img {
 }
 
 .answer {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 a {
@@ -210,6 +235,13 @@ a:hover {
   color: #eda087;
   transition: color .25s ease-in-out;
 }
+  
+@media (min-width: 768px) {
+  .questions2 {
+    display: inline-block;
+    width: 30%;
+  }
+}
 
 
 /* === Contact === */
@@ -217,7 +249,6 @@ a:hover {
 
 .contact {
   text-align: center;
-  width: 100%;
   padding: 1.5rem;
 }
 
@@ -229,6 +260,7 @@ section h2 {
   font-size: 1.5rem;
   margin: 0 0 1.5rem;
 }
+
 
 /* === Footer === */
 
