@@ -10,10 +10,11 @@ body {
   color: black;
 }
 
-h1, h2, img {
-  font-family: 'Great Vibes';
-  margin-bottom: 1.5rem;
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
 }
+
+
 
 /* === Header === */
 
@@ -55,6 +56,7 @@ h1, h2, img {
   color: #d2ba87;
   font-size: 4.15rem;
   font-family: 'Great Vibes', cursive;
+  margin-bottom: 1.5rem;
 }
 
 .tagline {
@@ -82,7 +84,7 @@ section h2 {
 
 .locations{
   text-align: center;
-  width: 95%;
+  width: 100%;
   margin: 1.5rem auto;
   padding: .5rem 1rem;
   display: table;
@@ -246,21 +248,14 @@ a:hover {
 
 /* === Contact === */
 
-
 .contact {
   text-align: center;
   padding: 1.5rem;
 }
 
-section h2 {
+h2 {
   margin-bottom: 1.5rem;
 }
-
-.contact_2 {
-  font-size: 1.5rem;
-  margin: 0 0 1.5rem;
-}
-
 
 /* === Footer === */
 
